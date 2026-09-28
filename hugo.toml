@@ -1,0 +1,37 @@
+baseURL = 'https://jtp.dev/'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+locale = 'en-us'
+
+
+theme = 'hermit-v2'
+
+title = 'John T Porvaznik'
+homeSubtitle = "Just this guy, y'know."
+
+[[params.socialLinks]]
+  name = "github"
+  url = "https://github.com/scurvyjtp"
+
+[[params.socialLinks]]
+  name = "codeberg"
+  url = "https://codeberg.org/scurvyjtp"
+
+[[params.socialLinks]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/john-porvaznik/"
+
+[[params.socialLinks]]
+  name = "meetup"
+  url = "https://www.meetup.com/members/480752279/"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 20
+
+    [[menu.main]]
+      name = "About"
+      url = "about/"
+      weight = 20
