@@ -9,20 +9,20 @@ on:
   workflow_dispatch:
 
 jobs:
- mirror:
-  runs-on: docker
-steps:
-   - name: Mirror Repository
-     env:
-       GITHUB_TOKEN: ${{ secrets.JTP_GH_MIRROR }}
-     run: |
-       set -eu
+  mirror:
+    runs-on: docker
+    steps:
+      - name: Mirror Repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.JTP_GH_MIRROR }}
+        run: |
+          set -eu
 
-       git clone --mirror \
-       "http://codeberg.org/${{ forge.repository }}.git" \
-       mirror.git
+          git clone --mirror \
+          "http://codeberg.org/${{ forge.repository }}.git" \
+          mirror.git
 
-       cd mirror.git
+          cd mirror.git
 
-       git push --miror \
-         "https://x-access-token:${GITHUB_TOKEN}@github.com/scurvyjtp/jtp.dev.git"
+          git push --miror \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/scurvyjtp/jtp.dev.git"
