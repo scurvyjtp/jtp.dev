@@ -3,7 +3,6 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 locale = 'en-us'
 
-
 theme = 'hermit-v2'
 
 title = 'John T Porvaznik'
