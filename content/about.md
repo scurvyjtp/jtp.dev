@@ -1,6 +1,6 @@
 +++
 date = '2026-09-28T12:51:24-04:00'
-draft = true
+draft = false
 title = 'John T Porvaznik'
 +++
 
