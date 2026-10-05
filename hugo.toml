@@ -1,4 +1,4 @@
-baseURL = 'https://jtp.dev/'
+baseURL = ''
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 locale = 'en-us'
