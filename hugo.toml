@@ -26,7 +26,7 @@ homeSubtitle = "Just this guy, y'know."
 
 [menu]
   [[menu.main]]
-    name = "External Links"
+    name = "Posts and Presentations"
     url = "links/"
     weight = 20
 
